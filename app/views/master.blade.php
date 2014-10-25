@@ -5,10 +5,12 @@
 	<title>PetsApp</title>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
 	<style type="text/css">
+		h1 {
+			float: left;
+		}
 		.quote {
-			position: absolute;
-			right: 325px;
-			top:5px;
+			float: left;
+			padding-top: 5px;
 		}
 	</style>
 </head>
@@ -19,6 +21,7 @@
 			<h2 class="text-muted">We love animals</h2>
 		</div>
 		<div class="page-header"> 
+			{{"<br>"}}
 			@yield('header') 
 		</div>
 		@if(Session::has('message'))
