@@ -26,9 +26,3 @@
 		<li><a href="{{URL::to('pets/ordered')}}">Order by age</a></li>
 	</ul>
 @stop
-
-@section('footer')
-<div class="text-center">
-	<p>{{"<br>"}}Stop by today!</p>
-</div>
-@stop
