@@ -11,6 +11,7 @@
 		.quote {
 			float: left;
 			padding-top: 5px;
+			padding-left: 10px;
 		}
 	</style>
 </head>
