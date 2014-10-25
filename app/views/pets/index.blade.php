@@ -3,7 +3,6 @@
 @section('header')
 <h2>
 	List of Pets
-	<!--NEED A SECOND HEADER HERE-->
 </h2>
 @stop
 
